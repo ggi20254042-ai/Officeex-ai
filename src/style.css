@@ -1,1 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+:root{font-family:'DM Sans',Arial,sans-serif;color:#172033;background:#f5f7fb;font-synthesis:none}
+*{box-sizing:border-box}
+body{margin:0;-webkit-tap-highlight-color:transparent}
+.app-shell{min-height:100vh;display:flex}
+.sidebar{width:248px;background:#101827;color:#c6cfdd;padding:24px 16px;display:flex;flex-direction:column;flex-shrink:0}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;font-size:20px;font-weight:700;margin:0 8px 32px}
+.brand b{color:#9c8cff}
+.brand-mark{width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,#7866f6,#39b9cf);display:grid;place-items:center;color:white;font-weight:800}
+.nav-item{width:100%;display:flex;align-items:center;gap:12px;border:0;background:transparent;color:#aeb9ca;padding:11px 12px;border-radius:10px;text-align:left;font:500 14px inherit;cursor:pointer;margin:2px 0}
+.nav-item:hover,.nav-item.selected{background:#263248;color:white}
+.side-label{font-size:10px;letter-spacing:1.4px;color:#718096;margin:20px 12px 8px;font-weight:700}
+.sidebar-bottom{margin-top:auto}
+.storage-card{margin:16px 3px 0;background:#1d2a3e;padding:14px;border-radius:12px;display:flex;gap:10px;color:#9c8cff}
+.storage-card div{display:flex;flex-direction:column;gap:4px}
+.storage-card b{font-size:12px;color:#e8edf5}
+.storage-card small{font-size:10px;color:#91a0b5}
+.main{min-width:0;flex:1;display:flex;flex-direction:column}
+.topbar{height:68px;background:white;border-bottom:1px solid #e9edf4;display:flex;align-items:center;justify-content:space-between;padding:0 4%;position:sticky;top:0;z-index:4}
+.breadcrumb{font-size:13px;font-weight:600}
+.breadcrumb span{color:#aab2c0;margin:0 8px}
+.top-actions{display:flex;align-items:center;gap:12px}
+.upload-btn,.light-btn{display:inline-flex;align-items:center;gap:7px;background:white;border:1px solid #dfe5ef;border-radius:9px;padding:9px 13px;font-weight:600;font-size:13px;color:#344054;cursor:pointer}
+.light-btn:hover,.upload-btn:hover{background:#f8fafc;border-color:#cbd5e1}
+.avatar{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#e9e5ff;color:#6553d8;font-weight:700;cursor:pointer;border:0}
+.content{max-width:1180px;width:100%;margin:0 auto;padding:28px 4% 40px}
+.welcome{background:linear-gradient(110deg,#171e39,#29345e);border-radius:20px;padding:34px 40px;color:white;display:flex;justify-content:space-between;align-items:center;min-height:230px;overflow:hidden;position:relative}
+.eyebrow{font-size:10px;font-weight:800;letter-spacing:1.6px;color:#8b7af5;margin-bottom:10px}
+.welcome h1{font-size:32px;line-height:1.18;margin:0 0 10px;letter-spacing:-1px}
+.welcome h1 span{color:#a99cff}
+.welcome p{color:#c2c9da;font-size:13px;margin:0 0 20px;max-width:460px;line-height:1.5}
+.hero-btns{display:flex;gap:10px;flex-wrap:wrap}
+.primary-btn{background:#7866ef;border:0;border-radius:9px;padding:11px 16px;color:white;font-weight:700;font-size:13px;display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+.primary-btn:hover{background:#6754dd}
+.secondary-btn{background:#ffffff1a;border:1px solid #ffffff30;border-radius:9px;padding:11px 16px;color:white;font-weight:600;font-size:13px;display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+.hero-art{width:230px;height:180px;position:relative;display:grid;place-items:center}
+.orb{width:130px;height:130px;border-radius:50%;display:grid;place-items:center;font-size:52px;color:#fff;background:radial-gradient(circle at 35% 30%,#a69aff,#6456d8 60%,#384
 
